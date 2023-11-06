@@ -1,0 +1,398 @@
+         header {
+            background-image: url(forex-1.jpg);
+            flex: 1;
+            text-align: center; 
+            font-family: Verdana,
+            Geneva, Tahoma, sans-serif; 
+            font-size: large; 
+            font-weight: 200;
+            margin-top: -20px;
+            margin-bottom: 250px;
+            width: auto;
+            height: auto;
+            align-items: center;
+        }
+		 .footer {
+            background-color: rgb(203, 189, 189);
+            text-align: center; 
+            font-family: sans-serif; 
+            font-weight: 100;
+        }
+		 th {
+            border: 1px solid gray;
+        }
+		 .body {
+            background-color: rgb(236, 168, 41), 
+            margin: 0 10%, 
+            font-family: sans-serif
+        }
+		  h1 {
+            text-align: center; 
+            image-resolution: 780px; 
+            font-family: serif; 
+            font-weight: normal; 
+            text-transform: uppercase; 
+            color: #ff0000; 
+            margin-top: 30px;
+        }
+		 h2 {
+            color: black; 
+            font-size: 0.8em;
+            text-align: left;
+             
+        }
+         h3 {
+            color: rgb(240, 78, 78); 
+            image-resolution: 780px; 
+            border-radius: 100%;
+            font-size: 3em;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+         h4 { 
+            color: blue;
+            border-radius: 70px; 
+            text-align: left; 
+            font-size: 3em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: -50px;
+        }
+		 #overflowTest { 
+            background: #4CAF50; 
+            color: white; 
+            padding: 15px; 
+            width: 50%; 
+            height: 100px; 
+            overflow: scroll; 
+            border: 1px solid #ccc;
+        }
+		 .clearfix {
+            overflow: auto; 
+        }
+         * { 
+            box-sizing: 
+            border-box; 
+        }
+         .img-container {  
+            float: left; 
+            width: 33.33%; 
+            padding: 5px; 
+        }
+         .clearfix::after {   
+            content: ""; 
+            clear: both; 
+            display: table;
+        }
+         .nav { 
+            list-style-type: none; 
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; 
+            background-color: #998686; 
+            padding-left: -100px;
+
+        }
+         .nav li { 
+            float:left
+            
+        }
+         .nav li a,.dropbtn { 
+            display:inline-block; 
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            
+        }
+         .nav li a:hover,.dropdown:hover .dropbtn {
+            background-color: rgb(180, 109, 223);
+        }
+         .nav li.dropdown { 
+            display: inline-block;
+         }
+         .dropdown-content { 
+            display: none;
+            position: absolute;
+            background-color: #cc4949; 
+            min-width: 160px; 
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+            z-index: 1;
+        }
+         .dropdown-content a {
+            color: black; 
+            padding: 12px 16px; 
+            text-decoration: none; 
+            display: block; 
+            text-align: left; 
+        }
+         .dropdown-content a:hover { 
+            background-color: #201818;
+        }
+         .dropdown:hover .dropdown-content { 
+            display:grid;
+        }
+         .active {
+            background-color: #ff0000;
+        }
+         ol { 
+            float: left;
+        }
+         .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px; 
+            background-color: white;
+            background-position: right bottom,left top; 
+            background-repeat: no-repeat,no-repeat;
+            background-size: 50%;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            margin-top: -20px;
+        }
+         .figures { 
+            list-style-type: none; 
+            margin:0; 
+            padding:0; 
+            overflow:hidden; 
+            background-color: white;
+        }
+         .figures li {
+            float:left;
+        }
+         .figures li a {
+            display:inline-block; 
+            color:blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+         .figures li a:hover {
+            background-color: rgb(19, 19, 229);
+        }
+         .positive {
+            background-color: rgb(224, 224, 236);
+        }
+         img {
+            opacity: 0.5;
+        }
+         img:hover {
+            opacity: 1.0;
+        }
+         .background { 
+            background: none;
+            border: 2px solid rgb(241, 229, 229);
+        }
+         .transbox {
+            margin: 30px; 
+            margin-top: 40px;
+            background-color:#ddd ;
+            border: 1px solid black; 
+            opacity: 0.5;
+            padding-left: 20px;
+            margin-bottom: 100px;
+            padding-right: 50px;
+            padding-left: 50px;
+         
+        }
+         .transbox p { 
+            margin: 5%; 
+            font-weight: bold; 
+            color: #000000;
+        }
+         p {
+            color: #000000;
+         }
+         input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #df5858;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+         input[type=submit] {
+            width: 50%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+         input[type=submit]:hover { 
+            background-color: #45a049;
+        }
+         div { 
+            border-radius: 5px; 
+            background-color: #f2f2f2; 
+            padding: 20px; 
+        }
+         body { 
+            counter-reset: section; 
+        }
+         
+         h6 { 
+            color: black; 
+            image-resolution: 480px; 
+            border-radius: 25%;
+            font-size:2em;
+            text-align: left;
+        }
+         h5 { 
+            color: black; 
+            image-resolution: 480px; 
+            border-radius: 25%;
+            font-size:2em;
+            text-align: center;
+        }
+         /* Create three equal columns that floats next to each other */
+         .column {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            border-radius: 20px;
+        }
+          /* Clear floats after the columns */
+         .row::after {
+            content: "";
+            display: table;
+            clear: both; 
+        }
+         #rcorners {border-radius: 25px;
+            background-color: #ccc;
+            background-position: left top;
+            background-repeat: repeat;
+            padding: 20px; 
+            width: 100px;
+            height: 70px; 
+        }
+         button { 
+            background-color:#1329f1 ; 
+            border-radius:20px; 
+            color: rgb(211, 208, 228); 
+            padding: 15px 32px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 4px 2px; 
+            cursor: pointer; 
+            border: 2px solid #4CAF50; /* Green */}
+         button:hover {
+            background-color: #df5858;
+        }
+         /* create two equal columns that floats next to each other*/
+         .column.one {
+            float: left;
+            width:50%;
+            padding:15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+        }
+         /* Clear floats after the columns one */
+         .pagination {
+            display: inline-block;
+        }
+         .pagination a { 
+            color: black;
+            float:left;
+            padding: 8px 16px;
+            text-decoration: none; 
+            border-radius: 5px; 
+            border: 1px solid #ddd; 
+            /* Gray */ margin: 0 4px; 
+            /* 0 is for top and bottom. Feel free to change it */}
+         .pagination a.active { 
+            background-color: #4CAF50; 
+            color: white; 
+            border-radius: 5px;
+        }
+         .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+         .center {
+            text-align: center;
+        }
+         :root { 
+            --blue: #1e90ff; 
+            --white: #ffffff;
+         }
+         .div1 {
+            width: 300px;
+            height: 400px;
+            border: 1px solid blue; 
+            background-color: #ccc; 
+            border-radius: 20px; 
+        }
+         .div2 {
+            width: auto;
+            height: auto;  
+            padding: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+         /* create two columns and two rows that floats next to each other*/
+         .column.two {
+            float: left; 
+            width:50%;
+            padding: 15px;
+            border-top: 20px;
+            border-bottom: 20px;
+        }
+        /*create two columns that floats nexts to each other*/
+        .column.three {
+         float: left;
+         width: 50%;
+         padding: 15px;
+         border-top: -50px;
+         border-bottom: -50px;
+        }
+         /*clear floats after the columns*/
+         .flex-container {
+            display:flex;
+            flex-wrap: wrap;
+            background-color: rgb(229, 232, 235);
+            border-radius: 30px;
+            justify-content: center;
+            
+        }
+         .flex-container > div {
+            background-color: #f1f1f1;
+            width: 100px;margin: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+            line-height: 15px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+        .h7 { color: #df5858; 
+         font-size: 2.5em;
+         text-align: left;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         margin-left: -30px;
+         margin-bottom: -20px;
+         
+      }
+      .h8 {color: black ;
+         font-size: 2em;
+         text-align: left;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         margin-left: -30px ;
+         margin-bottom: -20px;
+      }
+         
+         
+         
+
+            
+         
+         
+         
+         
